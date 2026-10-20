@@ -1,0 +1,196 @@
+{
+	"menu_id" : "slo_options",
+	"parent_menu_id" : "blt_options",
+	"title" : "slo_title",
+	"description" : "slo_desc",
+	"items" : [
+		{
+			"type" : "toggle",
+			"id" : "slo_toggle_assault_rifle",
+			"title" : "slo_toggle_assault_rifle_title",
+			"description" : "slo_toggle_desc",
+			"callback" : "callback_slo_toggle",
+			"value" : "assault_rifle"
+		},
+		{
+			"type" : "slider",
+			"id" : "slo_hits_assault_rifle",
+			"title" : "slo_hits_assault_rifle_title",
+			"description" : "slo_hits_desc",
+			"callback" : "callback_slo_hits",
+			"value" : "hits_assault_rifle",
+			"default_value" : 3,
+			"min" : 1,
+			"max" : 10,
+			"step" : 1
+		}
+		,{ "type" : "divider", "size" : 12 },
+		{
+			"type" : "toggle",
+			"id" : "slo_toggle_smg",
+			"title" : "slo_toggle_smg_title",
+			"description" : "slo_toggle_desc",
+			"callback" : "callback_slo_toggle",
+			"value" : "smg"
+		},
+		{
+			"type" : "slider",
+			"id" : "slo_hits_smg",
+			"title" : "slo_hits_smg_title",
+			"description" : "slo_hits_desc",
+			"callback" : "callback_slo_hits",
+			"value" : "hits_smg",
+			"default_value" : 3,
+			"min" : 1,
+			"max" : 10,
+			"step" : 1
+		}
+		,{ "type" : "divider", "size" : 12 },
+		{
+			"type" : "toggle",
+			"id" : "slo_toggle_snp",
+			"title" : "slo_toggle_snp_title",
+			"description" : "slo_toggle_desc",
+			"callback" : "callback_slo_toggle",
+			"value" : "snp"
+		},
+		{
+			"type" : "slider",
+			"id" : "slo_hits_snp",
+			"title" : "slo_hits_snp_title",
+			"description" : "slo_hits_desc",
+			"callback" : "callback_slo_hits",
+			"value" : "hits_snp",
+			"default_value" : 3,
+			"min" : 1,
+			"max" : 10,
+			"step" : 1
+		}
+		,{ "type" : "divider", "size" : 12 },
+		{
+			"type" : "toggle",
+			"id" : "slo_toggle_shotgun",
+			"title" : "slo_toggle_shotgun_title",
+			"description" : "slo_toggle_desc",
+			"callback" : "callback_slo_toggle",
+			"value" : "shotgun"
+		},
+		{
+			"type" : "slider",
+			"id" : "slo_hits_shotgun",
+			"title" : "slo_hits_shotgun_title",
+			"description" : "slo_hits_desc",
+			"callback" : "callback_slo_hits",
+			"value" : "hits_shotgun",
+			"default_value" : 3,
+			"min" : 1,
+			"max" : 10,
+			"step" : 1
+		}
+		,{ "type" : "divider", "size" : 12 },
+		{
+			"type" : "toggle",
+			"id" : "slo_toggle_lmg",
+			"title" : "slo_toggle_lmg_title",
+			"description" : "slo_toggle_desc",
+			"callback" : "callback_slo_toggle",
+			"value" : "lmg"
+		},
+		{
+			"type" : "slider",
+			"id" : "slo_hits_lmg",
+			"title" : "slo_hits_lmg_title",
+			"description" : "slo_hits_desc",
+			"callback" : "callback_slo_hits",
+			"value" : "hits_lmg",
+			"default_value" : 3,
+			"min" : 1,
+			"max" : 10,
+			"step" : 1
+		}
+		,{ "type" : "divider", "size" : 12 },
+		{
+			"type" : "toggle",
+			"id" : "slo_toggle_pistol",
+			"title" : "slo_toggle_pistol_title",
+			"description" : "slo_toggle_desc",
+			"callback" : "callback_slo_toggle",
+			"value" : "pistol"
+		},
+		{
+			"type" : "slider",
+			"id" : "slo_hits_pistol",
+			"title" : "slo_hits_pistol_title",
+			"description" : "slo_hits_desc",
+			"callback" : "callback_slo_hits",
+			"value" : "hits_pistol",
+			"default_value" : 3,
+			"min" : 1,
+			"max" : 10,
+			"step" : 1
+		}
+		,{ "type" : "divider", "size" : 12 },
+		{
+			"type" : "toggle",
+			"id" : "slo_toggle_akimbo",
+			"title" : "slo_toggle_akimbo_title",
+			"description" : "slo_toggle_desc",
+			"callback" : "callback_slo_toggle",
+			"value" : "akimbo"
+		},
+		{
+			"type" : "slider",
+			"id" : "slo_hits_akimbo",
+			"title" : "slo_hits_akimbo_title",
+			"description" : "slo_hits_desc",
+			"callback" : "callback_slo_hits",
+			"value" : "hits_akimbo",
+			"default_value" : 3,
+			"min" : 1,
+			"max" : 10,
+			"step" : 1
+		}
+		,{ "type" : "divider", "size" : 12 },
+		{
+			"type" : "toggle",
+			"id" : "slo_toggle_minigun",
+			"title" : "slo_toggle_minigun_title",
+			"description" : "slo_toggle_desc",
+			"callback" : "callback_slo_toggle",
+			"value" : "minigun"
+		},
+		{
+			"type" : "slider",
+			"id" : "slo_hits_minigun",
+			"title" : "slo_hits_minigun_title",
+			"description" : "slo_hits_desc",
+			"callback" : "callback_slo_hits",
+			"value" : "hits_minigun",
+			"default_value" : 3,
+			"min" : 1,
+			"max" : 10,
+			"step" : 1
+		}
+		,{ "type" : "divider", "size" : 12 },
+		{
+			"type" : "toggle",
+			"id" : "slo_toggle_saw",
+			"title" : "slo_toggle_saw_title",
+			"description" : "slo_toggle_desc",
+			"callback" : "callback_slo_toggle",
+			"value" : "saw"
+		},
+		{
+			"type" : "slider",
+			"id" : "slo_hits_saw",
+			"title" : "slo_hits_saw_title",
+			"description" : "slo_hits_desc",
+			"callback" : "callback_slo_hits",
+			"value" : "hits_saw",
+			"default_value" : 3,
+			"min" : 1,
+			"max" : 10,
+			"step" : 1
+		}
+	]
+}
